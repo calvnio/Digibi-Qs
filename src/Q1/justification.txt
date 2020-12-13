@@ -1,0 +1,6 @@
+The plan for this question was to create a Hashmap which stored all possible anagrams/permutations of the query. From this, iterating through the parent string,
+the substrings of the parent would be compared with the Hashmap providing a O(1) time complexity. I was hoping to approach the question this way as I believed
+this method would provide the best time complexity.
+
+Due to the for loop, the time complexity of the following algorithm would be O(n) where n is the length of the parent, ignoring the
+recursion to identify all possible anagrams of the query string
